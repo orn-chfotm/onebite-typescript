@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    // 컴파일 결과 js 버전
+    "target": "esnext",
+    // 모듈 시스템 버전
+    "module": "esnext",
+    // 컴파일 js 저장 경로
+    "outDir": "dist",
+    // 타입 검사 엄격함 기준
+    "strict": false,
+    // 파일 내 코드 로컬 모듈 취급
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  // ts node esm 모듈 시스템 처리
+  "ts-node": { "esm": true },
+  // 컴파일 ts 경로
+  "include": ["src"]
+}
