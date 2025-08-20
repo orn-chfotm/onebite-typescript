@@ -18,9 +18,8 @@ function func3(): never {
   while (true) {}
 }
 
-function func4() : never {
+function func4(): never {
   throw new Error();
 }
 
-let a : never;
-
+let a: never;
